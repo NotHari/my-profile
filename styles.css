@@ -1,0 +1,186 @@
+body {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+h1 {
+  margin: 0 auto;
+  width: 75%;
+  font-family: "Sacramento", sans-serif;
+  color: white;
+  font-size: 8rem;
+}
+
+h2 {
+  margin: 0 auto;
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 2rem;
+}
+
+h3 {
+  margin: 0 auto;
+  padding-bottom: 1rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+h4 {
+  margin: 0 auto;
+  font-family: "Montserrat", sans-serif;
+}
+li {
+  text-align: left;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  padding: 0 20px 0 20px;
+}
+
+ul {
+  list-style: none; /* Remove default bullets */
+}
+
+ul li::before {
+  content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #659dbd; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+  list-style-type: square;
+}
+
+hr {
+  border-top: 1px dashed white;
+}
+
+.top-container {
+  text-align: center;
+  vertical-align: middle;
+  font-family: "Merriweather Sans", sans-serif;
+  background-color: #659dbd;
+  position: static;
+  height: 100vh;
+}
+
+.heading {
+  padding-bottom: 2rem;
+  color: #659dbd;
+  font-size: 4rem;
+}
+
+.h2-1 {
+  color: white;
+  padding-bottom: 50px;
+}
+.sub {
+  color: #659dbd;
+}
+
+.skill-content {
+  text-align: left;
+  padding-left: 5rem;
+}
+
+.skill-content-1 {
+  padding-right: 5rem;
+  text-align: left;
+}
+
+.skill-row {
+  margin: 0 auto;
+}
+
+.web-dev-pic {
+  margin: auto auto;
+}
+
+.data-science-pic {
+  margin: auto auto;
+}
+.top-content {
+  padding-top: 250px;
+}
+.mountain {
+  top: 1px;
+}
+.cloud-1 {
+  left: 500px;
+}
+
+.cloud-2 {
+  left: 200px;
+  padding-right: 1000px;
+}
+
+.profile {
+  text-align: center;
+  width: 55%;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.profile-pic {
+  width: 9.375rem;
+}
+
+.skill-heading {
+  color: #659dbd;
+}
+
+.skills {
+  margin: 0 auto;
+  width: 75%;
+}
+
+.middle-container {
+  text-align: center;
+  padding: 0 0 50px 0;
+}
+
+.cloud-1 {
+  position: relative;
+}
+
+.web-dev {
+  padding: 0 50px;
+}
+
+.data-science-pic {
+  float: right;
+}
+
+.web-dev-pic {
+  float: right;
+}
+
+.skill-row {
+  width: 75%;
+  margin: 0 auto;
+  padding-bottom: 60px;
+  display: flex;
+}
+
+.profile {
+  padding-bottom: 50px;
+}
+
+.bottom-container {
+  text-align: center;
+  font-family: "Merriweather Sans", sans-serif;
+  background-color: #659dbd;
+}
+
+.wrap {
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+}
+
+.socials {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
